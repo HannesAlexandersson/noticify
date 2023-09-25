@@ -1,0 +1,216 @@
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src:
+      local("/fonts"),
+      url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype"),
+      url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype"),
+      url("/fonts/Poppins/Poppins-Black.ttf") format("truetype"),
+      url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");      
+  }
+  @font-face {
+    font-family: "Inter";
+    src:
+      local("/fonts"),
+      url("/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf format") format("truetype"),
+      url("/fonts/Inter/static/Inter-Regular.ttf") format("truetype");        
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 30px;    
+  }
+  .header-item1{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FA6262;    
+  }
+  .header-item2{
+    position: absolute;
+    color: black;    
+  }
+  .card-container{
+   display: flex;
+   flex-wrap: wrap; 
+   gap: 10px;  
+  }
+  .card-item {
+    background-color: #FBFBFB;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 3px 4px 12px 0px #0000001A;
+    width: calc(50% - 5px);
+    position: relative;
+    /* width: 305px; */
+    height: 267px;
+}
+  main{
+    display: flex;    
+    padding: 10px;
+    margin: 30px;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 40px;
+  }
+  p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  h1{
+    font-family: 'Poppins';
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  h2{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+a{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+  }
+.small-container{
+  display: flex;
+  gap:5px;
+}
+.gothenburg{
+  background-color: #FFFACC;
+  border-radius: 25px;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:68px;
+  height: 15px;
+}
+.office{
+  border-radius: 25px;
+  background-color: #C7E3EF;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:68px;
+  height: 15px;
+}
+.jobs{
+  border-radius: 25px;
+  background-color: #E2EFC7;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:68px;
+  height: 15px;
+}
+.money{
+  border-radius: 25px;
+  background-color: #EFC7C7;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:68px;
+  height: 15px;
+}
+.animal{
+  border-radius: 25px;
+  background-color: #E2EFC7;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:68px;
+  height: 15px;
+}
+.red-box {
+  position: absolute;
+  width: 42px;
+  height: 41px;
+  top: 224px;
+  left: 269px;
+  border-radius: 0px 0px 16px 0px;
+  background-color: #FF7B7B;
+}
+.learn{
+  border-radius: 25px;
+  background-color: #C7E3EF;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:125px;
+  height: 24px;
+  color:#000000;
+}
+.about{
+  border-radius: 25px;
+  background-color: #E2EFC7;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  width:125px;
+  height: 24px;
+  color:#000000;
+}
